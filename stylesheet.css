@@ -1,0 +1,75 @@
+html {
+    cursor: pointer;
+}
+
+.connect-four {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* border: solid black 1px; */
+}
+
+#connect-four__background {
+    width: 640px;
+    height: 480px;
+    z-index: 1;
+    position: absolute;
+}
+
+.connect-four__column {
+    height: auto;
+    z-index: 2;
+}
+
+.connect-four__token {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    z-index: 3;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+#free-token {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: black;
+    display: none;
+    position: absolute;
+    z-index: 10;
+}
+
+.victory {
+    /* background: rgba(255, 255, 255, 0.9); */
+    background-image: url("confetti.gif");
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    /* border: solid black 1px; */
+}
+
+/* Switch victory div on */
+.on {
+    display: flex;
+}
