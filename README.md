@@ -6,7 +6,7 @@
 
 ### Website
 
-<p>insert github website</p>
+<p>https://abirrer.github.io/connect-four/</p>
 
 ### Technologies Used
 
